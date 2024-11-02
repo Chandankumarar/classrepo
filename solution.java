@@ -5,15 +5,16 @@ class solution
         {
             Scanner sc=new Scanner(System.in);
             
-            System.out.println("enter two numbers to add");
+            System.out.println("enter three numbers to add");
             int a=sc.nextInt();
             int b=sc.nextInt();
-            sum(a,b);
+            int c=sc.nextInt();
+            sum(a,b,c);
             sc.close();
         }
-        public static void sum(int a,int b)
+        public static void sum(int a,int b,int c)
         {
-            int total=a+b;
+            int total=a+b+c;
             System.out.println("Sum of two numbers a & b: "+total);
         }
 }
